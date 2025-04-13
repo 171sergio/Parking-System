@@ -17,7 +17,6 @@ Este é um sistema web simples para controle de entrada e saída de veículos em
   - Total de veículos atualmente estacionados
   - Total arrecadado
   - Média de tempo de permanência
-  - Entradas do dia, da semana e do mês
 
 ## 💰 Regras de Cobrança
 
