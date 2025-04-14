@@ -49,7 +49,7 @@ estacionamento/ ├── estacionamento/ # Configurações do projeto Django �
 
 ```bash
 git clone https://github.com/171sergio/Parking-System.git
-cd estacionamento
+cd Parking-System
 
 2. Crie e ative um ambiente virtual
 
