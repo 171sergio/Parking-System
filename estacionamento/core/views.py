@@ -74,13 +74,9 @@ def dashboard(request):
         for c in carros_com_saida
         if c.saida and c.entrada
     ]
+    
     media_tempo = sum(tempos) / len(tempos) if tempos else 0
-
-    # NOVO: carros que entraram hoje
-    carros_hoje = Carro.objects.filter(entrada__gte=hoje_inicio)
-    total_entradas_hoje = carros_hoje.count()
-
-    # NOVO: total atualmente estacionados
+    
     total_estacionados = Carro.objects.filter(saida__isnull=True).count()
 
     return render(request, 'dashboard.html', {
